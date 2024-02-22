@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <main id="main-doc">
+      <div class="main-box">
+        <div class="navbar">
+          <nav id="navbar">
+            <header>
+              <h1>
+                HTML Documentation
+              </h1>
+            </header>
+            <div class="link"><a class="nav-link" href="#What_is_HTML?">What is HTML?</a></div>
+            <div class="link"><a class="nav-link" href="#Anatomy_of_an_HTML_element">Anatomy of an HTML element</a></div>
+            <div class="link"><a class="nav-link" href="#Attributes">Attributes</a></div>
+            <div class="link"><a class="nav-link" href="#Anatomy_of_an_HTML_document">Anatomy of an HTML document</a></div>
+            <div class="link"><a class="nav-link" href="#Reference">Reference</a></div>
+          </nav>
+
+        </div>
+        <div class="the-main">
+
+          <section class="main-section" id="What_is_HTML?">
+            <header><h1>What is HTML?</h1></header>
+            <p>HTML (HyperText Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. For example, consider the following line of text:</p>
+
+    <p>My cat is very grumpy</p>
+    <p>If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph <code>&lt;p&gt;</code> element.
+
+    <p><code>&lt;p&gt;My cat is very grumpy&lt;/p&gt;</code></p>
+
+          </section>
+
+          <section class="main-section" id="Anatomy_of_an_HTML_element">
+            <header><h1>Anatomy of an HTML element</h1></header>
+            <p>
+              <p>The anatomy of our element is:</p>
+
+    <p>The opening tag:</p> <p>This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect.</p>
+    <p>The content:</p> <p>This is the content of the element.</p>
+    <p>The closing tag:</p> <p>This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.
+    The element is the opening tag, followed by content, followed by the closing tag.</p>
+            </p>
+          </section>
+
+          <section class="main-section" id="Attributes">
+            <header><h1>Attributes</h1></header>
+            <p>
+            <p> Attributes contain extra information about the element that won't appear in the content. In this example, the class attribute is an identifying name used to target the element with style information.</p>
+
+    <p>An attribute should have:</p>
+
+    <p>A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)
+    The attribute name, followed by an equal sign.
+    An attribute value, wrapped with opening and closing quote marks.</p>
+            </p>
+          </section>
+
+          <section class="main-section" id="Anatomy_of_an_HTML_document">
+            <header><h1>Anatomy of an HTML document</h1></header>
+            <p>
+
+              <ul>
+                <li><code><p>&lt;!DOCTYPE html&gt;</code>:</p> <p>The doctype. When HTML was young (1991-1992), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML.
+      More recently, the doctype is a historical artifact that needs to be included for everything else to work right.</p></li>
+
+                <li><p><code>&lt;html&gt;</code>:</p> <p>This element wraps all the content on the page. It is sometimes known as the root element.</p></li>
+
+                <li><p><code>&lt;head&gt;</code>:</p><p>This element acts as a container for everything you want to include on the HTML page, that isn't the content the page will show to viewers. This includes keywords and a page description that would appear in search results, CSS to style content, character set declarations, and more. You will learn more about this in the next article of the series.</p></li>
+
+                <li><p><code>&lt;meta charset="utf-8"&gt;</code>:</p>  <p>This element represents metadata that cannot be represented by other HTML meta-related elements. The charset attribute specifies the character encoding for your document as UTF-8, which includes most characters from the vast majority of human written languages. With this setting, the page can now handle any textual content it might contain. There is no reason not to set this, and it can help avoid some problems later.</p></li>
+
+                <li><p><code>&lt;title&gt;</code>:</p><p> This sets the title of the page, which is the title that appears in the browser tab the page is loaded in. The page title is also used to describe the page when it is bookmarked.</p></li>
+
+                <li><p><code>&lt;body&gt;</code>:</p><p>This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.</p></li>
+              </ul>
+      
+
+            </p>
+          </section>
+
+          <section class="main-section"id="Reference">
+            <header><h1>Reference</h1></header>
+            <p>
+              All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">MDN.</a>
+            </p>
+          </section>
+        </div>
+      </div>
+      
+
+    </main>
+  </body>
+</html>
